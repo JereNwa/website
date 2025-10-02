@@ -116,10 +116,7 @@ const about: About = {
         images: [
           // optional: leave the array empty if you don't want to display images
           {
-            src: "",
-            alt: "",
-            width: ,
-            height: ,
+            
           },
         ],
       },
