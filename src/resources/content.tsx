@@ -110,8 +110,22 @@ const about: About = {
         ],
         images: [],
       },
-  },
-  
+   ],
+},
+   studies: {
+    display: false, // set to false to hide this section
+    title: "Studies",
+    institutions: [
+      {
+        name: "University of Jakarta",
+        description: <>Studied software engineering.</>,
+      },
+      {
+        name: "Build the Future",
+        description: <>Studied online marketing and personal branding.</>,
+      },
+    ],
+  }, 
   technical: {
     display: true, // set to false to hide this section
     title: "Technical skills",
