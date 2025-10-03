@@ -108,16 +108,10 @@ const about: About = {
             Currently redesigning the website for the church.
           </>,
         ],
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Website image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [],
       },
   },
+  
   technical: {
     display: true, // set to false to hide this section
     title: "Technical skills",
