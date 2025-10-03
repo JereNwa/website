@@ -110,7 +110,10 @@ const about: About = {
         ],
         images: [
           {
-           src: "", // optional: leave the array empty if you don't want to display images
+            src: "/images/projects/project-01/cover-02.jpg",
+            alt: "Website image",
+            width: 16,
+            height: 9,
           },
         ],
       },
