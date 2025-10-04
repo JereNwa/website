@@ -101,7 +101,7 @@ const about: About = {
     experiences: [
       {
         company: "Transformation Place",
-        timeframe: "2022 - Present",
+        timeframe: "Present",
         role: "Web Developer",
         achievements: [
           <>
