@@ -148,7 +148,7 @@ const about: About = {
         // optional: leave the array empty if you don't want to display images
         images: [],
       },
-    ]
+    ],
 };
 
 const blog: Blog = {
