@@ -149,7 +149,7 @@ const about: About = {
         images: [],
       },
     ],
-};
+},
 
 const blog: Blog = {
   path: "/blog",
