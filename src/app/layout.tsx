@@ -15,10 +15,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | Quest for Bugs",
-    default: "Home - Quest for Bugs",
+    template: "%s | JereNwa",
+    default: "Home | JereNwa",
   },
-  description: "Creating a movie entirely in Scratch.",
+  description: "JereNwa's personal website.",
 };
 
 export default function RootLayout({
