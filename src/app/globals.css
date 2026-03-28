@@ -43,79 +43,46 @@
   font-style: italic;
 }
 
+
 @font-face {
-  font-family: "Theinhardt";
-  src: url("/fonts/theinhardt/Theinhardt-Bold.otf") format("opentype");
-  font-weight: bold;
-  font-style: normal;
+  font-family: "Satoshi";
+  src: url("/fonts/satoshi/Satoshi-Variable.ttf") format("truetype");
+  font-weight: 300 900;
 }
 
 @font-face {
-  font-family: "Theinhardt";
-  src: url("/fonts/theinhardt/Theinhardt-BoldIta.otf") format("opentype");
-  font-weight: bold;
+  font-family: "Satoshi";
+  src: url("/fonts/satoshi/Satoshi-VariableItalic.ttf") format("truetype");
+  font-weight: 300 900;
   font-style: italic;
 }
 
 @font-face {
-  font-family: "Theinhardt";
-  src: url("/fonts/theinhardt/Theinhardt-Light.otf") format("opentype");
-  font-weight: light;
-  font-style: normal;
+  font-family: "Switzer";
+  src: url("/fonts/switzer/Switzer-Variable.ttf") format("truetype");
+  font-weight: 100 900;
 }
 
 @font-face {
-  font-family: "Theinhardt";
-  src: url("/fonts/theinhardt/Theinhardt-LightIta.otf") format("opentype");
-  font-weight: light;
+  font-family: "Switzer";
+  src: url("/fonts/switzer/Switzer-VariableItalic.ttf") format("truetype");
+  font-weight: 100 900;
   font-style: italic;
 }
 
+
 @font-face {
-  font-family: "Theinhardt";
-  src: url("/fonts/theinhardt/Theinhardt-Thin.otf") format("opentype");
-  font-weight: thin;
+  font-family: "Lilex";
+  src: url("/fonts/lilex/Lilex[wght].ttf") format("truetype");
+  font-weight: 100 900;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Theinhardt";
-  src: url("/fonts/theinhardt/Theinhardt-Thin-Italic.otf") format("opentype");
-  font-weight: thin;
+  font-family: "Lilex";
+  src: url("/fonts/lilex/Lilex-Italic[wght].ttf") format("truetype");
+  font-weight: 100 900;
   font-style: italic;
-}
-
-@font-face {
-  font-family: "Theinhardt";
-  src: url("/fonts/theinhardt/Theinhardt-Heavy.otf") format("opentype");
-  font-weight: heavy;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Theinhardt";
-  src: url("/fonts/theinhardt/Theinhardt-Heavy-Italic.otf") format("opentype");
-  font-weight: heavy;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Theinhardt";
-  src: url("/fonts/theinhardt/Theinhardt-Medium.otf") format("opentype");
-  font-weight: medium;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Theinhardt";
-  src: url("/fonts/theinhardt/Theinhardt-RegularIta.otf") format("opentype");
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Theinhardt";
-  src: url("/fonts/theinhardt/Theinhardt-Regular.otf") format("opentype");
-  font-style: normal;
 }
 
 :root {
@@ -126,9 +93,9 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: "Theinhardt", sans-serif;
+  --font-sans: "Switzer", sans-serif;
   --font-serif: "Plantin", serif;
-  --font-mono: var(--font-geist-mono);
+  --font-mono: "Lilex", monospace;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -141,5 +108,5 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: "Theinhardt", sans-serif;
+  font-family: "Switzer", sans-serif;
 }
