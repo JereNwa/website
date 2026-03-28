@@ -1,72 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600&display=swap");
 @import "tailwindcss";
+
 
 /* Custom fonts */
 @font-face {
   font-family: "Plantin";
   src: url("/fonts/plantin/PlantinMTProRg.ttf") format("truetype");
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Plantin";
   src: url("/fonts/plantin/PlantinMTProBold.ttf") format("truetype");
-  font-weight: bold;
+  font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Plantin";
   src: url("/fonts/plantin/PlantinMTProIt.ttf") format("truetype");
-  font-weight: normal;
+  font-weight: 400;
   font-style: italic;
 }
 
 @font-face {
   font-family: "Plantin";
   src: url("/fonts/plantin/PlantinMTProBoldIt.ttf") format("truetype");
-  font-weight: bold;
+  font-weight: 700;
   font-style: italic;
 }
 
 @font-face {
   font-family: "Plantin";
-  src: url("/fonts/plantin/PlantinMTProSemiBd.ttf") format("truetype");
-  font-weight: semibold;
+  src: url("/fonts/plantin/PlantinMTProSmBd.ttf") format("truetype");
+  font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Plantin";
   src: url("/fonts/plantin/PlantinMTProSemiBdIt.ttf") format("truetype");
-  font-weight: semibold;
-  font-style: italic;
-}
-
-
-@font-face {
-  font-family: "Satoshi";
-  src: url("/fonts/satoshi/Satoshi-Variable.ttf") format("truetype");
-  font-weight: 300 900;
-}
-
-@font-face {
-  font-family: "Satoshi";
-  src: url("/fonts/satoshi/Satoshi-VariableItalic.ttf") format("truetype");
-  font-weight: 300 900;
+  font-weight: 600;
   font-style: italic;
 }
 
 @font-face {
-  font-family: "Switzer";
-  src: url("/fonts/switzer/Switzer-Variable.ttf") format("truetype");
-  font-weight: 100 900;
+  font-family: "Plantin";
+  src: url("/fonts/plantin/PlantinMTProLight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: "Switzer";
-  src: url("/fonts/switzer/Switzer-VariableItalic.ttf") format("truetype");
-  font-weight: 100 900;
+  font-family: "Plantin";
+  src: url("/fonts/plantin/PlantinMTProLightIt.ttf") format("truetype");
+  font-weight: 300;
   font-style: italic;
 }
 
@@ -93,7 +82,7 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: "Switzer", sans-serif;
+  --font-sans: "Fira Sans", sans-serif;
   --font-serif: "Plantin", serif;
   --font-mono: "Lilex", monospace;
 }
@@ -108,5 +97,5 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: "Switzer", sans-serif;
+  font-family: "Fira Sans", sans-serif;
 }

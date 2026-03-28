@@ -15,7 +15,7 @@ export default function About() {
           <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
             About
           </h1>
-          <p className="mt-2">I'm a young coder in London, who is interested in all things tech and design.</p>
+          <p className="mt-2 font-serif">I'm a young coder in London, who is interested in all things tech and design.</p>
           <code className="font-mono">
             <p>while (not finished) &#123;</p>
             <p>&nbsp; keepCoding();</p>
