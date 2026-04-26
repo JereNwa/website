@@ -10,7 +10,6 @@ const Navbar = () => {
 
   const menus = [
     { title: "About", path: "/about" },
-    { title: "Blog", path: "/blog" },
     { title: "Projects", path: "/projects" },
     { title: "GitHub", path: "https://github.com/JereNwa" },
   ];

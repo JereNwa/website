@@ -18,14 +18,14 @@ export default function GlobalNotFound() {
     <html lang="en" className="">
       <body>
         <h1
-          className={`text-center font-bold text-5xl mt-6 ${geistSans.variable}`}
+          className={`text-center font-bold text-5xl mt-6`}
         >
           404 - Page Not Found
         </h1>
-        <p className={`text-center mt-6 ${geistSans.variable}`}>
+        <p className={`text-center mt-6 font-serif`}>
           This page does not exist.
           <br />
-          <a href="/" className="text-center mt-6 text hover:underline">
+          <a href="/" className="text-center mt-6 text font-serif hover:underline">
             Go back home
           </a>
         </p>

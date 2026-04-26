@@ -16,6 +16,9 @@ export default function About() {
             About
           </h1>
           <p className="mt-2 font-serif">I'm a young coder in London, who is interested in all things tech and design.</p>
+          <p className="font-serif">I'm skilled in HTML, CSS, JavaScript and React, and am currently learning more about C++, Swift and Python.</p>
+          <p className="font-serif">This site showcases some of my projects and provides information about me.</p>
+          <p className="font-serif">Feel free to explore and check out my work!</p>
           <code className="font-mono">
             <p>while (not finished) &#123;</p>
             <p>&nbsp; keepCoding();</p>
